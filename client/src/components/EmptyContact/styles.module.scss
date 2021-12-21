@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex: 1;
+  padding: 4rem 0;
+
+  img {
+    width: 250px;
+    height: auto;
+  }
+
+  .emptyListText {
+
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.50rem;
+
+
+    .empty {
+      font-weight: 700;
+      color: var(--blue-500);
+    }
+
+    button {
+      margin-top: 2rem;
+    }
+  }
+
+}

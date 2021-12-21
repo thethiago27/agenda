@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    p {
+      font-size: 1.30rem;
+      color: #5F6368;
+
+      span {
+        font-weight: 600;
+        color: var(--blue-500);
+      }
+    }
+  }
+}

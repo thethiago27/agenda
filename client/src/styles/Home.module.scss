@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.welcome {
+  font-size: 1.50rem;
+  text-align: center;
+  margin-top: 4rem;
+
+  p:first-child {
+    color: var(--blue-500);
+    font-weight: 700;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+
+  input {
+    padding: 1rem;
+    width: 50%;
+    background: var(--blue-100);
+    border: 0;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: #ABABAB;
+    margin-top: 2rem;
+
+    &::placeholder {
+      color: #ABABAB;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  button {
+    background: var(--blue-500);
+    color: white;
+    width: 50%;
+    border: 0;
+    border-radius: 0.5rem;
+    font-size: 1.20rem;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+}
