@@ -1,6 +1,6 @@
 ## Agenda.do
 
-Conclusão do teste solicitado, para aprovação no processo seletivo.
+Crie contatos, favorite contatos, tudo isso em um unico lugar.
 
 ## Tencnologias utilizadas
 
